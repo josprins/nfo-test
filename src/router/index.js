@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-const HomePage = () => import('@/pages/HomePage.vue')
-const DocsPage = () => import('@/pages/DocsPage.vue')
+import { defineAsyncComponent } from 'vue'
+const HomePage = defineAsyncComponent(() => import('@/pages/HomePage.vue'))
+const DocsPage = defineAsyncComponent(() => import('@/pages/DocsPage.vue'))
 
 const routes = [
 	{ path: '/', component: HomePage },
