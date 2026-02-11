@@ -1,7 +1,2 @@
-@import '@assets/styles/variables.css';
-
-body {
-	font-family: var(--font-family), sans-serif;
-	background-color: var(--bg-dark);
-	color: var(--text);
-}
+@import '@/assets/styles/variables.css';
+@import '@/assets/styles/global.css';
