@@ -1,0 +1,5 @@
+export { default as DashboardIcon } from './DashboardIcon.vue'
+export { default as CalendarEditIcon } from './CalendarEditIcon.vue'
+export { default as CalendarJumpToDateIcon } from './CalendarJumpToDateIcon.vue'
+export { default as CalendarStarIcon } from './CalendarStarIcon.vue'
+export { default as CalendarWaitingIcon } from './CalendarWaitingIcon.vue'

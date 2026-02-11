@@ -1,5 +1,7 @@
+/* global module, process */
 module.exports = {
 	root: true,
+	ignorePatterns: ['dist', 'dist-ssr', 'node_modules', '*.config.js', '*.config.cjs', 'vite.config.js'],
 	env: {
 		browser: true,
 		es2021: true,

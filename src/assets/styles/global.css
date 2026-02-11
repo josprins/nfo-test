@@ -1,0 +1,40 @@
+/* Global resets and defaults to reduce component-level CSS */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--font-family), sans-serif;
+	background-color: var(--bg-dark);
+	color: var(--text);
+	margin: 0;
+	padding: 0;
+}
+
+/* Standard focus styles for accessibility */
+:focus-visible {
+	outline: var(--border-width-thick) solid var(--border-focus);
+	outline-offset: 2px;
+}
+
+/* Typography defaults - inherit from these rather than re-declaring */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+/* Tabular numbers for all elements that might show numbers */
+button,
+[role='tab'],
+[role='tabpanel'] {
+	font-feature-settings:
+		'tnum' on,
+		'lnum' on;
+}

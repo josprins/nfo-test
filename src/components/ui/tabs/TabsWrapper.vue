@@ -1,5 +1,28 @@
-<script setup></script>
+<script setup>
+defineProps({
+	modelValue: {
+		type: Number,
+		default: undefined,
+	},
+	defaultTab: {
+		type: Number,
+		default: 0,
+	},
+})
 
-<template></template>
+defineEmits(['update:modelValue', 'change'])
+</script>
 
-<style scoped></style>
+<template>
+	<div class="tabs-wrapper">
+		<slot />
+	</div>
+</template>
+
+<style scoped>
+.tabs-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-8);
+}
+</style>
