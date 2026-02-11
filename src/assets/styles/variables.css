@@ -4,54 +4,54 @@
 @import './tokens/borders.css';
 
 :root {
-    /* TabLabel.vue */
-    --tab-padding-y: var(--space-12);
-    --tab-padding-x: var(--space-16);
-    --tab-gap: var(--space-8);
-    --tab-radius: var(--radius-lg);
+	/* TabLabel.vue */
+	--tab-padding-y: var(--space-12);
+	--tab-padding-x: var(--space-16);
+	--tab-gap: var(--space-8);
+	--tab-radius: var(--radius-lg);
 
-    /* Tab States */
-    --tab-bg-default: var(--bg-light);
-    --tab-bg-hover: var(--bg-light);
-    --tab-bg-active: var(--accent);
-    --tab-bg-disabled: var(--bg);
+	/* Tab States */
+	--tab-bg-default: var(--bg-light);
+	--tab-bg-hover: var(--bg-light);
+	--tab-bg-active: var(--accent);
+	--tab-bg-disabled: var(--bg);
 
-    --tab-border-default: var(--border);
-    --tab-border-hover: var(--border-focus);
-    --tab-border-active: var(--border);
-    --tab-border-disabled: var(--border);
+	--tab-border-default: var(--border);
+	--tab-border-hover: var(--border-focus);
+	--tab-border-active: var(--border);
+	--tab-border-disabled: var(--border);
 
-    --tab-text-default: var(--text);
-    --tab-text-hover: var(--text);
-    --tab-text-active: var(--text);
-    --tab-text-disabled: var(--text-muted);
+	--tab-text-default: var(--text);
+	--tab-text-hover: var(--text);
+	--tab-text-active: var(--text);
+	--tab-text-disabled: var(--text-muted);
 
-    /* TabLabel.vue Typography */
-    --tab-font-family: var(--font-family);
-    --tab-font-size: var(--font-size-base);
-    --tab-font-weight: var(--font-weight-normal);
-    --tab-line-height: var(--line-height-base);
+	/* TabLabel.vue Typography */
+	--tab-font-family: var(--font-family);
+	--tab-font-size: var(--font-size-base);
+	--tab-font-weight: var(--font-weight-normal);
+	--tab-line-height: var(--line-height-base);
 
-    /* Icon */
-    --icon-size: 16px;
-    --icon-color-default: var(--text);
-    --icon-color-active: var(--text);
-    --icon-color-disabled: var(--text-muted);
+	/* Icon */
+	--icon-size: 16px;
+	--icon-color-default: var(--text);
+	--icon-color-active: var(--text);
+	--icon-color-disabled: var(--text-muted);
 
-    /* Suffix/Badge (append) */
-    --suffix-font-size: var(--font-size-base);
-    --suffix-font-weight: var(--font-weight-normal);
-    --suffix-color-default: var(--text-muted);
-    --suffix-color-active: var(--text-muted);
-    --suffix-color-disabled: var(--text-muted);
+	/* Suffix/Badge (append) */
+	--suffix-font-size: var(--font-size-base);
+	--suffix-font-weight: var(--font-weight-normal);
+	--suffix-color-default: var(--text-muted);
+	--suffix-color-active: var(--text-muted);
+	--suffix-color-disabled: var(--text-muted);
 
-    /* TabPanel */
-    --panel-padding: var(--space-16);
-    --panel-gap: var(--space-8);
-    --panel-bg: var(--bg-light);
-    --panel-border: var(--border);
-    --panel-radius: var(--radius-lg);
+	/* TabPanel */
+	--panel-padding: var(--space-16);
+	--panel-gap: var(--space-8);
+	--panel-bg: var(--bg-light);
+	--panel-border: var(--border);
+	--panel-radius: var(--radius-lg);
 
-    /* TabList wrapper gap */
-    --tab-list-gap: var(--space-8);
+	/* TabList wrapper gap */
+	--tab-list-gap: var(--space-8);
 }

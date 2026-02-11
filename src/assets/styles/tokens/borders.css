@@ -1,12 +1,12 @@
 :root {
-    /* From Figma: border-radius: 8px; */
-    --radius-sm: 5px;   /* Dashed border on component frame */
-    --radius-md: 6px;
-    --radius-lg: 8px;   /* TabLabel.vue, TabPanel */
-    --radius-xl: 12px;
-    --radius-full: 9999px;
+	/* From Figma: border-radius: 8px; */
+	--radius-sm: 5px; /* Dashed border on component frame */
+	--radius-md: 6px;
+	--radius-lg: 8px; /* TabLabel.vue, TabPanel */
+	--radius-xl: 12px;
+	--radius-full: 9999px;
 
-    /* From Figma: border: 1px solid */
-    --border-width: 1px;
-    --border-width-thick: 2px;
+	/* From Figma: border: 1px solid */
+	--border-width: 1px;
+	--border-width-thick: 2px;
 }

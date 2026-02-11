@@ -1,0 +1,16 @@
+# Build outputs
+dist
+dist-ssr
+*.local
+
+# Dependencies
+node_modules
+
+# Generated files
+coverage
+.vite
+
+# Lock files
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
