@@ -1,0 +1,31 @@
+:root {
+    /* Light Mode */
+    --bg-dark: #E5E5E5;
+    --bg: #F2F2F2;
+    --bg-light: #FFFFFF;
+
+    --accent: #D3A9FF;
+
+    --border: #CCCCCC;
+    --border-focus: #999999;
+
+    --text: #000000;
+    --text-muted: #666666;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-dark: #000000;
+        --bg: #0D0D0D;
+        --bg-light: #1A1A1A;
+
+        --accent: #490098;
+
+        --border: #333333;
+        --border-focus: #666666;
+
+        --text: #FFFFFF;
+        --text-muted: #999999;
+    }
+}

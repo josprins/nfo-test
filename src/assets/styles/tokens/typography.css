@@ -1,0 +1,29 @@
+:root {
+    /* From Figma */
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+    /* Font sizes from Figma */
+    --font-size-xs: 12px;
+    --font-size-sm: 15px;
+    --font-size-base: 16px;  /* TabLabel.vue label */
+    --font-size-lg: 18px;    /* Heading 4 */
+    --font-size-xl: 20px;    /* Heading 3 */
+    --font-size-2xl: 24px;   /* Heading 2 */
+    --font-size-3xl: 32px;   /* Heading 1 */
+
+    /* Font weights from Figma */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+
+    /* Line heights from Figma */
+    --line-height-tight: 18px;   /* Heading 6 */
+    --line-height-base: 19px;    /* Body text, TabLabel.vue */
+    --line-height-md: 22px;      /* Heading 4 */
+    --line-height-lg: 24px;      /* Heading 3 */
+    --line-height-xl: 29px;      /* Heading 2 */
+    --line-height-2xl: 39px;     /* Heading 1 */
+}
